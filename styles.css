@@ -1,0 +1,356 @@
+* {
+    /* border-style: solid;
+    border-color: red;
+    border-width: 1px; */
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Century Gothic";
+    /* display: flex;
+    flex-direction: column; */
+    /* align-items: center; */
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: blue;
+    border-color: green;
+    color: white;
+}
+
+li {
+    list-style-type: none;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    border-color: blue;
+    background-color: white;
+    width: 300px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    border-color: teal;
+}
+
+.nav-link {
+    border-color: purple;
+    margin: 3px;
+    background-color: white;
+    color: blue;
+}
+
+/* .nav-link:hover {
+    background-color: deepskyblue;
+} */
+
+/* .layer-top {
+    background-color: white;
+    color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 80vh;
+} */
+
+.layer-white {
+    background-color: white;
+    color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* width: 98vw; */
+    height: 80vh;
+    
+}
+
+.layer-blue {
+    background-color: blue;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* width: 98vw; */
+    height: 80vh;
+}
+
+.layer-top {
+    background-color: blue;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* width: 98vw; */
+    height: 100vh;
+    /* height: auto; */
+}
+
+.top-text {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.info {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20vw;
+}
+
+footer {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+tr {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+td {
+    margin: 3px;
+}
+
+.endnote {
+    margin: 5px;
+}
+
+img {
+    height: 65%;
+    width: auto;
+    border-style: solid;
+    border-color: darkcyan;
+    border-width: 1px;
+    /* margin: 5vh; */
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.horizontal-img {
+    width: 55vw;
+    height: auto;
+    border-style: solid;
+    border-color: darkcyan;
+    border-width: 1px;
+    /* margin: 5vh; */
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.main-img {
+    /* width: 30vw;
+    height: 40vw; */
+    width: auto;
+    height: auto;
+    border-style: solid;
+    border-color: darkcyan;
+    border-width: 1px;
+    /* margin: 5vh; */
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+button {
+    height: 36pt;
+    width: 20vw;
+    font-family: "Century Gothic";
+    font-weight: bold;
+    font-size: 12pt;
+    background-color: blue;
+    color: white;
+    border-style: solid;
+    border-color: darkblue;
+    border-radius: 1px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color:mediumblue;
+}
+
+button:active {
+    background-color:deepskyblue;
+    color: mediumblue; 
+}
+
+.button-alt {
+    height: 36pt;
+    width: 20vw;
+    font-family: "Century Gothic";
+    font-weight: bold;
+    font-size: 12pt;
+    background-color: white;
+    color: blue;
+    border-style: solid;
+    border-color: deepskyblue;
+    border-radius: 1px;
+    margin-top: 0px;
+}
+
+.button-alt:hover {
+    background-color:skyblue;
+}
+
+.button-alt:active {
+    background-color:darkblue;
+    color: skyblue; 
+}
+
+#shade {
+    background-color: rgba(0, 0, 128, 0.75);
+    color: blue;
+    z-index: 1;
+    position: fixed;
+    align-items: center;
+    text-align: center;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+}
+
+#window {
+    background-color: white;
+    color: blue;
+    z-index: 2;
+    position: fixed;
+    /* align-items: center;
+    text-align: center; */
+    margin-top: 50px;
+    border-style: solid;
+    border-radius: 1px;
+    border-color: lightblue;
+    width: 30%;
+    left: 35%;
+    right: 35%;
+}
+
+.window-top {
+    background-color:aqua;
+    height: 16pt;
+}
+
+.close-button {
+    height: 36pt;
+    width: 60pt;
+    font-family: "Century Gothic";
+    font-weight: bold;
+    font-size: 12pt;
+    background-color: red;
+    color: white;
+    border-style: solid;
+    border-color: darkblue;
+    border-radius: 1px;
+    margin-top: 10px;
+}
+
+.close-button:hover {
+    background-color:crimson;
+}
+
+.close-button:active {
+    background-color:lightcoral;
+    color: crimson; 
+}
+
+@media only screen and (max-width: 12000px) {
+
+    #window {
+        width: 40%;
+        left: 30%;
+        right: 30%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    
+    /* img {
+        width: auto;
+        height: auto;
+    } */
+
+    #window {
+        width: 50%;
+        left: 25%;
+        right: 25%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .layer-blue {
+        /* background-color: yellow; */
+        flex-direction: column;
+        align-items: center;
+        height: 60vh;
+    }
+
+    .layer-white {
+        /* background-color: yellow; */
+        flex-direction: column-reverse;
+        align-items: center;
+        height: 60vh;
+    }
+
+    .layer-top {
+        /* background-color: yellow; */
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        height: 80vh;
+    }
+
+    .info {
+        width: 80vw;
+        margin-top: auto;
+        margin-bottom: auto;
+        align-items: center;
+    }
+
+    .main-img {
+        /* width: 30vw;
+        height: 40vw; */
+        width: 180px;
+        height: 240px;
+    }
+
+    #window {
+        width: 80%;
+        left: 10%;
+        right: 10%;
+    }
+
+    img {
+        height: 45%;
+    }
+
+    /* img {
+        margin-top: 1px;
+        margin-bottom: auto;
+    } */
+}
+
+@media only screen and (max-height: 600px) {
+    .main-img {
+        height: 75%;
+    }
+}
